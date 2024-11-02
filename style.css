@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+input {
+    border: none;
+    background-color: rgb(224, 222, 222);
+    border-radius: 8px;
+    padding: 35px 0px;
+    font-size: 35px;
+    width: 100px;
+}
+
+button {
+    border: none;
+    background-color: green;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+#choose {
+    background-color: red;
+    display: none;
+}
+
+#card {
+    background-color: rgb(235, 234, 234);
+    width: 300px;
+    margin: 0 auto;
+    padding: 80px 10px;
+    display: none;
+}
+
+#new {
+    display: none;
+}

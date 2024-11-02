@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="">
+        <button id="new">New Game</button>
+
+    </a>
+    <div>
+        <select name="lang" id="lang">
+            <option value="en">EN</option>
+            <option value="ru">RU</option>
+            <option value="az">AZ</option>
+        </select>
+    </div>
+    <div id="mani">
+        <img width="300" src="https://img.freepik.com/premium-vector/spy-mysterious-black-cat-logo-with-red-eye-circle_627079-454.jpg?w=360" alt="">
+        <br>
+        <div id="startdiv">
+            <input id="count" type="number">
+            <br>
+            <button onclick="start()">Start</button>
+
+        </div>
+        <br>
+        <button onclick="choose()" id="choose">Choose</button>
+    
+        <div id="card">
+            <h1 id="result"></h1>
+            <button onclick="hide()">Hide</button>
+        </div>
+        
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
